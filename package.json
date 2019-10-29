@@ -1,0 +1,11 @@
+{
+  "name": "sarcasm-font",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/davidkwan95/sarcasm-font.git",
+  "author": "davidkwan95 <davidkwan95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.6.4"
+  }
+}
