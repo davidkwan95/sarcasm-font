@@ -1,10 +1,15 @@
 {
   "name": "sarcasm-font",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/converter.js",
   "repository": "https://github.com/davidkwan95/sarcasm-font.git",
   "author": "davidkwan95 <davidkwan95@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc src/converter.ts --outDir build",
+    "watch": "tsc -w src/converter.ts --outDir build",
+    "start": "node build/converter.js"
+  },
   "dependencies": {
     "typescript": "^3.6.4"
   }
