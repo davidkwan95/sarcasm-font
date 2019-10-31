@@ -1,4 +1,4 @@
-function convertToAlternatingCase(text: string) {
+export const convertToAlternatingCase = (text: string) => {
   const words = text.toLowerCase().split(" ");
 
   const outputWords = words.map(w => {
@@ -11,7 +11,7 @@ function convertToAlternatingCase(text: string) {
   });
 
   return outputWords.join(" ");
-}
+};
 
 console.log(convertToAlternatingCase("make sarcasm with less effort now"));
 console.log(convertToAlternatingCase("people are gonna love this project"));
